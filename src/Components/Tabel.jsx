@@ -5,144 +5,179 @@ const Tabel = () => {
 
     return (
         <>
-            <div className="overflow-x-auto">
-                <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
-                    <tbody className="divide-y divide-gray-200">
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Lalu - lintas</td>
+            <div className="p-8">
+                <div className="mx-auto max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Lalu Lintas</a>
+                        </div>
 
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                    onClick={() => navigate('/')}
-                                >
-                                    1983
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Pendidikan</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    15
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Kesehatan</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    10
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Lingkungan Hidup</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    8
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Tenaga Kerja</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    12
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Pajak dan Retribusi</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    9
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Transportasi</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    7
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Telekomunikasi</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    6
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Pertanian</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    11
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Perdagangan</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    14
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">Peraturan Pemerintah tentang Keamanan dan Pertahanan</td>
-                            <td className="whitespace-nowrap px-4 py-2" align="right">
-                                <a
-                                    href="#"
-                                    onClick={() => navigate('/ErrorPages')}
-                                    className="inline-block rounded bg-indigo-600 px-4 py-2 text-xs font-medium text-white hover:bg-indigo-700"
-                                >
-                                    13
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium"
+                                onClick={() => navigate('/')}
+                            > 192 </span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Pendidikan</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>15</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Kesehatan</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>10</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Lingkungan Hidup</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>8</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Tenaga Kerja</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>12</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Pajak dan Retribusi</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>9</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Transportasi</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>7</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Telekomunikasi</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>6</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Pertanian</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>11</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
+                <div className="mx-auto mt-5 max-w-xl">
+                    <form action="#" className="sm:flex sm:gap-2">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                            <a>Peraturan Pemerintah tentang Perdagangan</a>
+                        </div>
+                        <button
+                            type="submit"
+                            className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
+                        >
+                            <span className="text-sm font-medium" onClick={() => navigate('/ErrorPages')}>14</span>
+                        </button>
+                    </form>
+                    <span class="flex items-center mt-2">
+                        <span class="h-px flex-1 bg-black"></span>
+                    </span>
+                </div>
+
             </div>
         </>
     );

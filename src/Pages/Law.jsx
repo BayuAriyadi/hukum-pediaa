@@ -8,10 +8,7 @@ const Law = () => {
         <>
             <Navbar />
             <List />
-            <div className="mr-32 ml-32">
-                <Tabel />
-            </div>
-
+            <Tabel />
             <Footer />
         </>
     );
