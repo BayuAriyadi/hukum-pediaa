@@ -1,13 +1,10 @@
+import {useNavigate} from 'react-router-dom'
+
 const FormLogin = () => {
+    const navigate = useNavigate()
+
     return (
         <>
-            {/*
-  Heads up! 👋
-
-  Plugins:
-    - @tailwindcss/forms
-*/}
-
             <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-lg text-center">
                     <h1 className="text-2xl font-bold sm:text-3xl">Get started today!</h1>
@@ -86,12 +83,15 @@ const FormLogin = () => {
                     <div className="flex items-center justify-between">
                         <p className="text-sm text-gray-500">
                             No account?
-                            <a className="underline" href="#">Sign up</a>
+                            <a className="underline" href="#"
+                                onClick={()  => navigate('/Regist')}
+                            >Sign up</a>
                         </p>
 
                         <button
                             type="submit"
                             className="inline-block rounded-lg bg-blue-500 px-5 py-3 text-sm font-medium text-white"
+                            onClick={() => navigate('/')}
                         >
                             Sign in
                         </button>
