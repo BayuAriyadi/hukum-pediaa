@@ -8,7 +8,9 @@ const Tabel = () => {
             <div className="p-8">
                 <div className="mx-auto max-w-xl">
                     <form className="sm:flex sm:gap-2">
-                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900">
+                        <div className="sm:flex-1 whitespace-nowrap align-middle font-medium text-gray-900"
+                            onClick={() => navigate('/Listinfo')}
+                        >
                             <a>Peraturan Lalu Lintas</a>
                         </div>
 
