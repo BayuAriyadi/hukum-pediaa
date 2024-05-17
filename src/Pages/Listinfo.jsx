@@ -1,6 +1,6 @@
 import CardDiscuss from "../Components/CardDiscuss";
 import Footer from "../Components/Footer";
-import ListDiscuss from "../Components/ListDiscuss";
+import Metadata from "../Components/Metadata";
 import Navbar from "../Components/Navbar";
 import Peraturan from "../Components/Peraturan";
 
@@ -10,7 +10,7 @@ const Listinfo = () => {
         <Navbar />
         <Peraturan />
         <CardDiscuss />
-        <ListDiscuss />
+        <Metadata />
         <Footer />
       </>  
     );

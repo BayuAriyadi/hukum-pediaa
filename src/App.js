@@ -7,6 +7,7 @@ import Law from './Pages/Law';
 import ErrorPages from './Pages/ErrorPages';
 import Listinfo from './Pages/Listinfo';
 import DiscussPage from './Pages/DiscussPage';
+import Koment from './Pages/DisscussPageDetail';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/ErrorPages' element={<ErrorPages />}/>
         <Route path='/Listinfo' element={<Listinfo />}/>
         <Route path='/Discuss' element={<DiscussPage />}/>
+        <Route path='/Komen' element={<Koment />}/>
       </Routes>
     </Router>
   );

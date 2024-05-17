@@ -8,7 +8,7 @@ function Navbar() {
             <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                     <div className="md:flex md:items-center md:gap-12">
-                        <a className="block text-teal-600" href="#">
+                        <a className="block text-teal-600 hover:cursor-pointer">
                             <span className="sr-only">Home</span>
                             <svg className="h-8" viewBox="0 0 28 24" fill="none" src="/public/icon.png"
                                 onClick={() => navigate('/')}
@@ -23,39 +23,38 @@ function Navbar() {
 
                     <div className="hidden md:block">
                         <nav aria-label="Global">
-                            <ul className="flex items-center gap-6 text-sm">
+                            <ul className="flex items-center gap-6 text-sm hover:cursor-pointer">
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> About </a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75"
+                                    onClick={() => navigate('/')}
+                                    > Beranda </a>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Careers </a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75"
+                                        onClick={() => navigate('/Law')}
+                                    > Peraturan Daerah </a>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> History </a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75"
+                                        onClick={() => navigate('/Discuss')}
+                                    > Forum Diskusi </a>
                                 </li>
 
                                 <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Services </a>
+                                    <a className="text-gray-500 transition hover:text-gray-500/75"> About </a>
                                 </li>
 
-                                <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Projects </a>
-                                </li>
-
-                                <li>
-                                    <a className="text-gray-500 transition hover:text-gray-500/75" href="#"> Blog </a>
-                                </li>
                             </ul>
                         </nav>
                     </div>
 
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-4 hover:cursor-pointer">
                         <div className="sm:flex sm:gap-4">
                             <a
                                 className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-                                href="#"
+                            
                                 onClick={() => navigate('/Login')}
                             >
                                 Login

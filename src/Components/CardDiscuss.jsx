@@ -31,8 +31,8 @@ const CardDiscuss = () => {
                             </svg>
                         </span>
 
-                        <a href="#">
-                            <h3 className="mt-0.5 text-lg font-medium text-gray-900">
+                        <a className="hover:cursor-pointer" onClick={() => navigate('/Discuss')}>
+                            <h3 className="mt-0.5 text-lg font-medium text-gray-900  hover:text-blue-600">
                                 Forum Diskusi
                             </h3>
                         </a>
@@ -45,7 +45,7 @@ const CardDiscuss = () => {
 
                         </p>
 
-                        <a href="#" className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+                        <a className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 hover:cursor-pointer"
                             onClick={() => navigate('/Discuss')}
                         >
                             Find out more

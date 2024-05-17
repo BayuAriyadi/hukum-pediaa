@@ -1,14 +1,18 @@
+import { useNavigate } from "react-router-dom";
+
 const ListDiscuss = () => {
+    const navigate = useNavigate()
+
     return (
         <>
             <header className="mt-5">
-                <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
-                    <div className="  bg-white rounded-xl shadow-md overflow-hidden mt-5">
+                <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 " >
+                    <div className="  bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 mt-5">
                         <div className="p-4">
                             <div className="flex items-center">
                                 <img
                                     className="h-12 w-12 rounded-full"
-                                    src="https://via.placeholder.com/150" // Ganti dengan URL gambar profil yang sesuai
+                                    src="https://source.unsplash.com/random/100x100" // Ganti dengan URL gambar profil yang sesuai
                                     alt="Profile"
                                 />
                                 <div className="ml-4">
@@ -17,7 +21,9 @@ const ListDiscuss = () => {
                                 </div>
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-lg font-semibold text-gray-900">Halo! Selamat datang dan silakan perkenalkan diri kamu</h2>
+                                <h2 className="hover:cursor-pointer hover:text-blue-600 text-lg font-semibold text-gray-900"
+                                    onClick={() => navigate('/Komen')}
+                                >Halo! Selamat datang dan silakan perkenalkan diri kamu</h2>
                                 <p className="mt-2 text-gray-600">
                                     Bagaimana kabarmu? Semoga baik-baik saja ya. Sekali lagi saya ucapkan selamat datang semuanya!
                                     Seperti yang sudah disampaikan sebelumnya, pada diskusi ini kamu bisa memperkenalkan diri...
@@ -46,12 +52,12 @@ const ListDiscuss = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl shadow-md overflow-hidden mt-5">
+                    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 mt-5">
                         <div className="p-4">
                             <div className="flex items-center">
                                 <img
                                     className="h-12 w-12 rounded-full"
-                                    src="https://via.placeholder.com/150" // Ganti dengan URL gambar profil yang sesuai
+                                    src="https://source.unsplash.com/random/100x100" // Ganti dengan URL gambar profil yang sesuai
                                     alt="Profile"
                                 />
                                 <div className="ml-4">
@@ -60,7 +66,9 @@ const ListDiscuss = () => {
                                 </div>
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-lg font-semibold text-gray-900">Peraturan Baru Tentang Helm</h2>
+                                <h2 className="hover:cursor-pointer hover:text-blue-600 text-lg font-semibold text-gray-900"
+                                    onClick={() => navigate('/Komen')}
+                                >Peraturan Baru Tentang Helm</h2>
                                 <p className="mt-2 text-gray-600">
                                     Pemerintah telah mengeluarkan peraturan baru tentang penggunaan helm standar SNI untuk pengendara motor. Peraturan ini bertujuan untuk meningkatkan keselamatan pengendara.
                                 </p>
@@ -88,12 +96,12 @@ const ListDiscuss = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl shadow-md overflow-hidden mt-5">
+                    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 mt-5">
                         <div className="p-4">
                             <div className="flex items-center">
                                 <img
                                     className="h-12 w-12 rounded-full"
-                                    src="https://via.placeholder.com/150" // Ganti dengan URL gambar profil yang sesuai
+                                    src="https://source.unsplash.com/random/100x100" // Ganti dengan URL gambar profil yang sesuai
                                     alt="Profile"
                                 />
                                 <div className="ml-4">
@@ -102,7 +110,9 @@ const ListDiscuss = () => {
                                 </div>
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-lg font-semibold text-gray-900">Aturan Pembatasan Kecepatan</h2>
+                                <h2 className="hover:cursor-pointer hover:text-blue-600 text-lg font-semibold text-gray-900"
+                                    onClick={() => navigate('/Komen')}
+                                >Aturan Pembatasan Kecepatan</h2>
                                 <p className="mt-2 text-gray-600">
                                     Pemerintah menetapkan batas kecepatan maksimum di area perkotaan untuk mengurangi kecelakaan lalu lintas. Batas kecepatan tersebut adalah 50 km/jam.
                                 </p>
@@ -130,12 +140,12 @@ const ListDiscuss = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl shadow-md overflow-hidden mt-5">
+                    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 mt-5">
                         <div className="p-4">
                             <div className="flex items-center">
                                 <img
                                     className="h-12 w-12 rounded-full"
-                                    src="https://via.placeholder.com/150" // Ganti dengan URL gambar profil yang sesuai
+                                    src="https://source.unsplash.com/random/100x100" // Ganti dengan URL gambar profil yang sesuai
                                     alt="Profile"
                                 />
                                 <div className="ml-4">
@@ -144,7 +154,9 @@ const ListDiscuss = () => {
                                 </div>
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-lg font-semibold text-gray-900">Larangan Menggunakan Ponsel Saat Berkendara</h2>
+                                <h2 className="hover:cursor-pointer hover:text-blue-600 text-lg font-semibold text-gray-900"
+                                    onClick={() => navigate('/Komen')}
+                                >Larangan Menggunakan Ponsel Saat Berkendara</h2>
                                 <p className="mt-2 text-gray-600">
                                     Menggunakan ponsel saat berkendara dapat membahayakan diri sendiri dan orang lain. Peraturan baru melarang penggunaan ponsel tanpa hands-free selama berkendara.
                                 </p>
@@ -172,12 +184,12 @@ const ListDiscuss = () => {
                         </div>
                     </div>
 
-                    <div className="bg-white rounded-xl shadow-md overflow-hidden mt-5">
+                    <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition duration-300 mt-5">
                         <div className="p-4">
                             <div className="flex items-center">
                                 <img
                                     className="h-12 w-12 rounded-full"
-                                    src="https://via.placeholder.com/150" // Ganti dengan URL gambar profil yang sesuai
+                                    src="https://source.unsplash.com/random/100x100" // Ganti dengan URL gambar profil yang sesuai
                                     alt="Profile"
                                 />
                                 <div className="ml-4">
@@ -186,7 +198,9 @@ const ListDiscuss = () => {
                                 </div>
                             </div>
                             <div className="mt-4">
-                                <h2 className="text-lg font-semibold text-gray-900">Penerapan ETLE (Electronic Traffic Law Enforcement)</h2>
+                                <h2 className="hover:cursor-pointer hover:text-blue-600 text-lg font-semibold text-gray-900"
+                                    onClick={() => navigate('/Komen')}
+                                >Penerapan ETLE (Electronic Traffic Law Enforcement)</h2>
                                 <p className="mt-2 text-gray-600">
                                     ETLE mulai diterapkan di beberapa kota besar di Indonesia untuk mendisiplinkan pengguna jalan. Sistem ini memanfaatkan kamera canggih untuk menangkap pelanggaran lalu lintas.
                                 </p>
