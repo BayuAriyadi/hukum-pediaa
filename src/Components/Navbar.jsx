@@ -38,7 +38,7 @@ function Navbar() {
 
                                 <li>
                                     <a className="text-gray-500 transition hover:text-gray-500/75"
-                                        onClick={() => navigate('/Discuss')}
+                                        onClick={() => navigate('/Diskusi')}
                                     > Forum Diskusi </a>
                                 </li>
 

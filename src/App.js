@@ -8,6 +8,7 @@ import ErrorPages from './Pages/ErrorPages';
 import Listinfo from './Pages/Listinfo';
 import DiscussPage from './Pages/DiscussPage';
 import Koment from './Pages/DisscussPageDetail';
+import Diskusi from './Pages/DiscussDetail';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/Listinfo' element={<Listinfo />}/>
         <Route path='/Discuss' element={<DiscussPage />}/>
         <Route path='/Komen' element={<Koment />}/>
+        <Route path='/Dikusi' element={<Diskusi />}/>
       </Routes>
     </Router>
   );
