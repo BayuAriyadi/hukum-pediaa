@@ -5,6 +5,8 @@ import Register from './Pages/Register';
 import Login from './Pages/Login';
 import Law from './Pages/Law';
 import ErrorPages from './Pages/ErrorPages';
+import Listinfo from './Pages/Listinfo';
+import DiscussPage from './Pages/DiscussPage';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path='/Login' element={<Login />}/>
         <Route path='/Law' element={<Law />}/>
         <Route path='/ErrorPages' element={<ErrorPages />}/>
+        <Route path='/Listinfo' element={<Listinfo />}/>
+        <Route path='/Discuss' element={<DiscussPage />}/>
       </Routes>
     </Router>
   );

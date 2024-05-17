@@ -1,8 +1,6 @@
-import { useNavigate } from "react-router-dom";
+import BackButton from "./BackButton";
 
 const Error404 = () => {
-    const navigation = useNavigate()
-
     return (
         <div className="grid h-screen place-content-center bg-white px-4">
             <div className="text-center">
@@ -12,13 +10,8 @@ const Error404 = () => {
 
                 <p className="mt-4 text-gray-500">We can't find that page.</p>
 
-                <a
-                    href="#"
-                    className="mt-6 inline-block rounded bg-indigo-600 px-5 py-3 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring"
-                    onClick={() => navigation('/')}
-                >
-                    Go Back Home
-                </a>
+                <BackButton />
+    
             </div>
         </div>
     );

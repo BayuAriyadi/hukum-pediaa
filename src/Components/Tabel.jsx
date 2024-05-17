@@ -17,7 +17,7 @@ const Tabel = () => {
                             className="group h-7 mt-2 flex w-full items-center justify-center gap-2 rounded-md bg-blue-600 px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-yellow-400 sm:mt-0 sm:w-auto"
                         >
                             <span className="text-sm font-medium"
-                                onClick={() => navigate('/')}
+                                onClick={() => navigate('/Listinfo')}
                             > 192 </span>
                         </button>
                     </form>
@@ -177,7 +177,6 @@ const Tabel = () => {
                         <span class="h-px flex-1 bg-black"></span>
                     </span>
                 </div>
-
             </div>
         </>
     );
