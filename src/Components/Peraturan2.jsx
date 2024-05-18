@@ -10,7 +10,7 @@ const Peraturan2 = () => {
                 <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-t-5 lg:px-8">
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <div className="text-center sm:text-left">
-                            <h1 className="text-2xl font-bold text-white sm:text-3xl">Diskusi Populer</h1>
+                            <h1 className="text-2xl font-bold text-white sm:text-3xl">Diskusi Umum</h1>
 
                             <p className="mt-1.5 text-sm text-white">Let's Discuss!</p>
                         </div>
@@ -21,7 +21,7 @@ const Peraturan2 = () => {
                                 type="button"
                                 onClick={() => navigate(-1)}
                             >
-                                <span className="text-sm font-medium"> <Back></Back> </span>
+                                <span className="text-sm font-medium"> Back </span>
 
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
